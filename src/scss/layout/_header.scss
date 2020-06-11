@@ -1,1 +1,11 @@
-
+.header {
+  position: fixed;
+  &__menuBox {
+    background-color: $color-primary-medium;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
