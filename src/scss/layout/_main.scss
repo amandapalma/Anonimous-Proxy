@@ -1,4 +1,25 @@
 .hero {
   height: 100vh;
-  background-image: url("./assets/images/cover.jpg");
+  background-image: url("../images/cover.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $color-light;
+
+  &__title span {
+    display: block;
+  }
+  &__scrollDown {
+    background-color: $color-light;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    border: 1px solid yellow;
+  }
+}
+
+h1 {
+  border: 1px solid red;
 }
