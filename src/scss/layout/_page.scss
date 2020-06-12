@@ -5,18 +5,41 @@ footer {
 }
 
 .wrapper {
+  border: dotted 3px yellow;
   max-width: 1200px;
   margin: auto;
   width: 100%;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 
   @include tablet {
-    padding: 0 39px;
+    padding-left: 39px;
+    padding-right: 39px;
   }
 
   @include desktop {
-    padding: 0 85px;
+    padding-left: 85px;
+    padding-right: 85px;
+  }
+}
+
+// MAIN: hero and Looking sections have different padding wrapper
+.extraWrapper {
+  border: dotted 3px yellow;
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @include tablet {
+    padding-left: 39px;
+    padding-right: 39px;
   }
 
-  // hero and Looking section have padding: 0 275px; (275=85+190)
+  @include desktop {
+    border: dotted 3px cyan;
+    padding-left: 275px;
+    padding-right: 275px;
+  }
 }
