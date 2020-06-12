@@ -3,6 +3,8 @@
 .hero {
   height: 100vh;
   background-image: url("../images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -20,6 +22,7 @@
     margin-top: 10px;
   }
   &__btn {
+    display: inline-block;
     background-color: $color-light;
     height: 45px;
     width: 45px;
@@ -34,7 +37,9 @@
 
 .looking {
   background-color: $color-light;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   padding-top: 30px;
   padding-bottom: 45px;
 
@@ -65,18 +70,28 @@
 
 .reasons {
   background-color: $color-primary-extralight;
-  text-align: center;
   padding-top: 30px;
   padding-bottom: 60px;
+
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat (5, 1fr);
   grid-row-gap: 45px;
+  align-items: center;
+  justify-items: center;
+
+  &__article {
+    text-align: center;
+  }
 
   &__btn {
     @include textButtons;
     background-color: $color-secondary;
     color: $color-light;
     width: 184px;
+
+    & a {
+      padding: 10px;
+    }
   }
 }
