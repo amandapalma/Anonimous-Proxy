@@ -24,3 +24,24 @@
   text-align: center;
   line-height: 45px;
 }
+
+// ICON BUTTONS
+@mixin iconButtons {
+  display: inline-block;
+  background-color: $color-light;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+}
+
+// NAV FONT
+
+@mixin navFont {
+  font-family: $font-secondary;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+}

@@ -352,10 +352,14 @@ template {
 
 * {
   box-sizing: border-box;
-  list-style-type: none;
   color: inherit;
   text-decoration: none;
-  margin: 0px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .wrapper {

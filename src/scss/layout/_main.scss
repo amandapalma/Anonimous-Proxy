@@ -22,14 +22,8 @@
     margin-top: 10px;
   }
   &__btn {
-    display: inline-block;
-    background-color: $color-light;
-    height: 45px;
-    width: 45px;
+    @include iconButtons;
     margin-top: 45px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 50px;
   }
 }
 

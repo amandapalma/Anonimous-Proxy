@@ -1,1 +1,53 @@
+.footer {
+  background-color: $color-primary;
+  color: $color-light;
 
+  .footerContainer {
+    border: 1px solid cyan;
+    position: relative;
+
+    &__btn {
+      @include iconButtons;
+      background-color: $color-light;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &__content {
+      border: 1px solid blueviolet;
+      margin-top: 60px;
+      margin-bottom: 45px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+
+      &--mainNav {
+        @include navFont;
+        border: 1px solid pink;
+        margin-bottom: 30px;
+      }
+
+      &--SMNav {
+        @include navFont;
+        border: 1px solid greenyellow;
+        margin-bottom: 30px;
+      }
+
+      &--copy {
+        font-family: $font-secondary;
+        font-size: 14px;
+        line-height: 30px;
+        border: 1px dotted pink;
+
+        & span {
+          display: block;
+        }
+
+        & i {
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+}
