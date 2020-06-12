@@ -1,3 +1,5 @@
+// HERO
+
 .hero {
   height: 100vh;
   background-image: url("../images/cover.jpg");
@@ -13,17 +15,68 @@
     display: block;
   }
 
-  & p {
+  &__text {
     text-align: center;
     margin-top: 10px;
   }
-  &__scrollDown {
+  &__btn {
     background-color: $color-light;
     height: 45px;
     width: 45px;
+    margin-top: 45px;
     border-radius: 50%;
     text-align: center;
-    line-height: 45px;
-    margin-top: 45px;
+    line-height: 50px;
+  }
+}
+
+// SECTION LOOKING
+
+.looking {
+  background-color: $color-light;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 45px;
+
+  &__pretitle {
+    color: $color-primary-light;
+    text-transform: capitalize;
+    margin-bottom: 1px;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+  }
+
+  &__btn {
+    @include textButtons;
+    background-color: $color-light;
+    width: 76px;
+    color: $color-secondary;
+    border: 2px solid $color-secondary;
+  }
+}
+
+// SECTION REASOSNS
+
+.reasons {
+  background-color: $color-primary-extralight;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat (5, 1fr);
+  grid-row-gap: 45px;
+
+  &__btn {
+    @include textButtons;
+    background-color: $color-secondary;
+    color: $color-light;
+    width: 184px;
   }
 }
