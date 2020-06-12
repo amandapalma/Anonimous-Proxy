@@ -4,8 +4,10 @@
     background-color: $color-primary-medium;
     height: 44px;
     width: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+
+    & a {
+      line-height: 44px;
+    }
   }
 }

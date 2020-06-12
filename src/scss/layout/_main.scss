@@ -3,23 +3,27 @@
   background-image: url("../images/cover.jpg");
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
   color: $color-light;
+  padding-top: 284px;
+  padding-bottom: 53px;
 
   &__title span {
     display: block;
+  }
+
+  & p {
+    text-align: center;
+    margin-top: 10px;
   }
   &__scrollDown {
     background-color: $color-light;
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    display: flex;
     text-align: center;
-    border: 1px solid yellow;
+    line-height: 45px;
+    margin-top: 45px;
   }
-}
-
-h1 {
-  border: 1px solid red;
 }
