@@ -1,5 +1,9 @@
 .header {
   position: fixed;
+  width: 100%;
+}
+
+.headerContainer {
   &__menuBox {
     background-color: $color-primary-medium;
     height: 44px;
