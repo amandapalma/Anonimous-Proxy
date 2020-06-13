@@ -27,7 +27,7 @@
     margin-top: 10px;
   }
   &__btn {
-    @include iconButton;
+    @include iconButtons;
     margin-top: 45px;
 
     & img {
