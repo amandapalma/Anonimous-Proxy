@@ -5,6 +5,11 @@
   .footerContainer {
     position: relative;
 
+    @include desktop {
+      padding-left: 370px;
+      padding-right: 370px;
+    }
+
     &__btn {
       @include iconButtons;
       background-color: $color-light;
@@ -14,30 +19,45 @@
     }
 
     &__content {
-      border: 1px solid blueviolet;
+      border: 1px solid blueviolet; //
       margin-top: 60px;
       margin-bottom: 45px;
       text-align: center;
       display: flex;
       flex-direction: column;
 
+      @include tablet {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: start;
+        margin-top: 45px;
+      }
+
       &--mainNav {
         @include navFont;
-        border: 1px solid pink;
+        border: 1px solid pink; //
         margin-bottom: 30px;
+
+        @include tablet {
+          order: 2;
+        }
       }
 
       &--SMNav {
         @include navFont;
-        border: 1px solid greenyellow;
+        border: 1px solid greenyellow; //
         margin-bottom: 30px;
+
+        @include tablet {
+          order: 3;
+        }
       }
 
       &--copy {
         font-family: $font-secondary;
         font-size: 14px;
         line-height: 30px;
-        border: 1px dotted pink;
+        border: 1px dotted pink; //
 
         & span {
           display: block;
@@ -45,6 +65,10 @@
 
         & i {
           color: $color-secondary;
+        }
+
+        @include tablet {
+          order: 1;
         }
       }
     }
