@@ -29,6 +29,7 @@
   &__btn {
     @include iconButtons;
     margin-top: 45px;
+    @include iconButtonAnimation;
 
     & img {
       height: 12px;
@@ -70,6 +71,7 @@
     width: 76px;
     color: $color-secondary;
     border: 2px solid $color-secondary;
+    @include txtButtonTransition;
   }
 }
 
@@ -130,6 +132,7 @@
     background-color: $color-secondary;
     color: $color-light;
     width: 184px;
+    @include txtButtonTransition;
 
     & a {
       padding: 10px;
