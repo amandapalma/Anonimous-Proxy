@@ -1,11 +1,6 @@
-header,
-main,
-footer {
-  border: 1px solid red;
-}
+// DEFAULT WRAPPER
 
 .wrapper {
-  border: dotted 3px yellow;
   max-width: 1200px;
   margin: auto;
   width: 100%;
@@ -23,9 +18,9 @@ footer {
   }
 }
 
-// MAIN: hero and Looking sections have different padding wrapper
+// MAIN: 'Hero' and 'Looking' sections have their own wrapper properties for breakpoints.
+
 .extraWrapper {
-  border: dotted 3px yellow;
   max-width: 1200px;
   margin: auto;
   width: 100%;
@@ -38,14 +33,14 @@ footer {
   }
 
   @include desktop {
-    border: dotted 3px cyan;
     padding-left: 275px;
     padding-right: 275px;
   }
 }
 
+// HEADER WRAPPER
+
 .headerWrapper {
-  border: dotted 3px pink;
   max-width: 1200px;
   margin: auto;
 }

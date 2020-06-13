@@ -12,7 +12,22 @@
   }
 }
 
+// ===== FONTS STYLES =====
+
+// FOOTER NAV FONT
+
+@mixin navFont {
+  font-family: $font-secondary;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+// ===== BUTTONS: STYLES AND ANIMATIONS =====
+
 // TEXT BUTTONS
+
 @mixin textButtons {
   height: 45px;
   border-radius: 22.5px;
@@ -20,7 +35,6 @@
   font-size: 20px;
   font-weight: 500;
   text-transform: capitalize;
-  // alineación de <a> dentro de su div que lo contiene
   text-align: center;
   line-height: 45px;
 }
@@ -37,17 +51,7 @@
   box-shadow: 0 2px 4px rgba($color-dark, 0.5);
 }
 
-// NAV FONT
-
-@mixin navFont {
-  font-family: $font-secondary;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  text-transform: uppercase;
-}
-
-// ICON BUTTON ANIMATION
+// ICON BUTTON ANIMATIONS
 
 @mixin iconButtonAnimation {
   animation-name: color-change;
@@ -102,7 +106,8 @@
   }
 }
 
-// TEXT BUTTON TRANSITION
+// TEXT BUTTON TRANSITIONS
+
 @mixin txtButtonTransition {
   &:hover {
     color: $color-primary-light;

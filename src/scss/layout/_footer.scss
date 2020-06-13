@@ -16,7 +16,6 @@
       position: absolute;
       left: 50%;
       transform: translate(-50%, -50%);
-
       @include iconButtonAnimation;
 
       & img {
@@ -26,9 +25,8 @@
     }
 
     &__content {
-      border: 1px solid blueviolet; //
-      margin-top: 60px;
-      margin-bottom: 45px;
+      padding-top: 60px;
+      padding-bottom: 45px;
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -37,12 +35,11 @@
         flex-direction: row;
         justify-content: space-between;
         text-align: start;
-        margin-top: 45px;
+        padding-top: 45px;
       }
 
       &--mainNav {
         @include navFont;
-        border: 1px solid pink; //
         margin-bottom: 30px;
 
         @include tablet {
@@ -52,7 +49,6 @@
 
       &--SMNav {
         @include navFont;
-        border: 1px solid greenyellow; //
         margin-bottom: 30px;
 
         @include tablet {
@@ -64,7 +60,6 @@
         font-family: $font-secondary;
         font-size: 14px;
         line-height: 30px;
-        border: 1px dotted pink; //
 
         & span {
           display: block;
