@@ -3,40 +3,171 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <title>Evaluacion final M1</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
     <link rel="icon" href="./assets/images/favicon.png" />
   </head>
 
   <body>
     <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab">
-        <h1>Bienvenidos a Adalab</h1>
+      <header class="header">
+        <div class="headerContainer headerWrapper">
+          <div class="headerContainer__menuBox">
+            <a
+              class="headerContainer__menuBox--link"
+              href="https://adalab.es"
+              target="_blank"
+              title="got to Adalab website"
+            >
+              <img src="../assets/images/ico-menu.svg" atl="header menu icon" />
+            </a>
+          </div>
+        </div>
       </header>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
+      <main class="main">
+        <section class="hero">
+          <div class="heroContainer extraWrapper">
+            <h1 class="heroContainer__title">
+              <span>anonymous</span>
+              <span>proxy</span>
+            </h1>
+            <p class="heroContainer__text">Earum hic culpa excepturi quia quas.</p>
+            <div class="heroContainer__btn">
+              <a href="" title="go to reasons section">
+                <img
+                  src="../assets/images/ico-scroll-down.svg"
+                  alt="scroll down icon"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+        <section class="looking">
+          <div class="lookingContainer extraWrapper">
+            <p class="lookingContainer__pretitle">insomnia tips</p>
+            <h2 class="lookingContainer__title">looking through a window</h2>
+            <p class="lookingContainer__text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio
+              voluptas asperiores dolores officia. Recusandae quisquam commodi omnis
+              exercitationem ratione pariatur atque? Id assumenda illum ipsam
+              dignissimos, rerum odit eaque nemo.
+            </p>
+            <div class="lookingContainer__btn">
+              <a href="#" title="go to looking through a window content">go</a>
+            </div>
+          </div>
+        </section>
+        <section class="reasons">
+          <div class="reasonsContainer wrapper">
+            <h2 class="reasonsContainer__title">3 reasons to purchase</h2>
+
+            <article class="reasonsContainer__article">
+              <h3 class="reasonsContainer__article--secondaryTitle">
+                article title 1
+              </h3>
+              <p class="reasonsContainer__article--text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </article>
+
+            <article class="reasonsContainer__article">
+              <h3 class="reasonsContainer__article--secondaryTitle">
+                article title 2
+              </h3>
+              <p class="reasonsContainer__article--text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </article>
+
+            <article class="reasonsContainer__article">
+              <h3 class="reasonsContainer__article--secondaryTitle">
+                article title 3
+              </h3>
+              <p class="reasonsContainer__article--text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </article>
+
+            <div class="reasonsContainer__btn">
+              <a href="#" title="go to more reasons">more reasons</a>
+            </div>
+          </div>
+        </section>
       </main>
 
-      <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
+      <footer class="footer">
+        <div class="footerContainer wrapper">
+          <a class="footerContainer__btn" href="#" title="go to home">
+            <img
+              src="../assets/images/ico-arrow.svg"
+              alt="row icon of footer button"
+            />
+          </a>
+          <div class="footerContainer__content">
+            <nav class="footerContainer__content--mainNav">
+              <ul>
+                <li>
+                  <a href="https://adalab.es/" target="_blank" title="go to articles">
+                    articles</a
+                  >
+                </li>
+                <li>
+                  <a href="https://adalab.es/" target="_blank" title="go to books"
+                    >books</a
+                  >
+                </li>
+                <li>
+                  <a href="https://adalab.es/" target="_blank" title="go to events"
+                    >events</a
+                  >
+                </li>
+                <li>
+                  <a href="https://adalab.es/" target="_blank" title="go to reasons"
+                    >reasons</a
+                  >
+                </li>
+                <li>
+                  <a href="https://adalab.es/" target="_blank" title="go to reasons"
+                    >tips</a
+                  >
+                </li>
+              </ul>
+            </nav>
 
-      <a class="link__github" href="https://github.com" target="_blank">GitHub</a>
-
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
-
-        </small>
+            <nav class="footerContainer__content--SMNav">
+              <ul>
+                <li>
+                  <a href="https://adalab.es/" target="_blank" title="go to twitter"
+                    >twitter</a
+                  >
+                </li>
+                <li>
+                  <a href="https://adalab.es/" target="_blank" title="go to instagram"
+                    >instagram</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://adalab.es/"
+                    target="_blank"
+                    title="go to mastodon.social"
+                    >mastodon.social</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <div class="footerContainer__content--copy">
+              <span>© 2017</span>
+              <span>we<i class="heart"> ❤︎ </i>components</span>
+            </div>
+          </div>
+        </div>
       </footer>
 
     </div>

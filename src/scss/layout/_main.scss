@@ -75,16 +75,49 @@
 .reasonsContainer {
   padding-top: 30px;
   padding-bottom: 60px;
-
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat (3, 1fr);
   grid-template-rows: repeat (5, 1fr);
-  grid-row-gap: 45px;
-  align-items: center;
+  grid-row-gap: 45px; //tras eliminar margin top y botton y line height de las tipografías se ajusta mejor. Pero aún sigue metiendo 5 px menos de los 45 que aplico.
   justify-items: center;
+  background-color: bisque; //
+
+  @include tablet {
+    grid-column-gap: 30px;
+    background-color: deeppink; //
+  }
+
+  @include desktop {
+    background-color: seagreen; //
+    padding-top: 60px;
+  }
+
+  &__title {
+    border: solid 1px blue; //
+    @include tablet {
+      grid-column: span 3;
+    }
+  }
 
   &__article {
+    display: inline-block;
     text-align: center;
+    background-color: rebeccapurple; //
+
+    &--secondaryTitle {
+      border: solid 1px yellow; //
+    }
+    &--text {
+      border: solid 1px yellow; //
+    }
+
+    @include tablet {
+      grid-column: span 1;
+
+      &--secondaryTitle {
+        margin-bottom: 14px;
+      }
+    }
   }
 
   &__btn {
@@ -95,6 +128,10 @@
 
     & a {
       padding: 10px;
+    }
+    @include tablet {
+      grid-column: span 3;
+      margin-top: 15px; // I already have 45px (grid-row-gap in .reasonsContainer) so I add 15px to add up in total 60px, as indicated in the design.
     }
   }
 }
