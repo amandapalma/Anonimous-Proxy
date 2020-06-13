@@ -26,14 +26,15 @@
 }
 
 // ICON BUTTONS
-@mixin iconButtons {
+@mixin iconButton {
   display: inline-block;
   background-color: $color-light;
   height: 45px;
   width: 45px;
   border-radius: 50%;
   text-align: center;
-  line-height: 50px;
+  line-height: 45px;
+  box-shadow: 0 2px 5px rgba($color-dark, 0.5);
 }
 
 // NAV FONT

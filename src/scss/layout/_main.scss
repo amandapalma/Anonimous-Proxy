@@ -27,8 +27,13 @@
     margin-top: 10px;
   }
   &__btn {
-    @include iconButtons;
+    @include iconButton;
     margin-top: 45px;
+
+    & img {
+      height: 12px;
+      transform: translateY(12%);
+    }
   }
 }
 

@@ -11,11 +11,16 @@
     }
 
     &__btn {
-      @include iconButtons;
+      @include iconButton;
       background-color: $color-light;
       position: absolute;
       left: 50%;
       transform: translate(-50%, -50%);
+
+      & img {
+        height: 24px;
+        transform: translateY(24%);
+      }
     }
 
     &__content {
