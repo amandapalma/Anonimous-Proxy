@@ -41,7 +41,6 @@
 
 // ICON BUTTONS
 @mixin iconButtons {
-  display: inline-block;
   background-color: $color-light;
   height: 45px;
   width: 45px;
@@ -49,6 +48,21 @@
   line-height: 45px;
   text-align: center;
   box-shadow: 0 2px 4px rgba($color-dark, 0.5);
+}
+
+// TEXT BUTTON TRANSITIONS
+
+@mixin txtButtonTransition {
+  &:hover {
+    color: $color-primary-light;
+    border: 2px solid $color-primary-light;
+    background-color: $color-primary;
+    &:active {
+      color: $color-primary;
+      border: 2px solid $color-primary;
+      background-color: $color-primary-light;
+    }
+  }
 }
 
 // ICON BUTTON ANIMATIONS
@@ -83,40 +97,95 @@
   }
 
   &:hover {
-    animation-name: pulsation;
-    animation-duration: 0.5s;
-    animation-timing-function: lineal;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-    animation: pulstation 0.5s lineal infinite both;
+    animation: border-change 1s linear infinite alternate both;
+    animation: border-change 1s linear infinite alternate both;
 
-    @keyframes pulsation {
-      from {
-        transform: scale(1);
-        transform-origin: center center;
+    @keyframes border-change {
+      0% {
+        border-top-right-radius: 35%;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 45%;
+        border-top-left-radius: 50%;
       }
 
-      to {
-        transform: scale(0.91);
+      100% {
+        border-bottom-right-radius: 50%;
+        border-top-left-radius: 45%;
+        border-bottom-right-radius: 40%;
+        border-top-left-radius: 35%;
+      }
+    }
+    @keyframes border-change {
+      0% {
+        border-top-right-radius: 35%;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 45%;
+        border-top-left-radius: 50%;
+      }
+
+      100% {
+        border-bottom-right-radius: 50%;
+        border-top-left-radius: 45%;
+        border-bottom-right-radius: 40%;
+        border-top-left-radius: 35%;
       }
     }
   }
+
   &:active {
     box-shadow: 0 2px 10px rgba($color-secondary, 0.5);
   }
 }
 
-// TEXT BUTTON TRANSITIONS
+// ICON BUTTON ANIMATIONS
 
-@mixin txtButtonTransition {
-  &:hover {
-    color: $color-primary-light;
-    border: 2px solid $color-primary-light;
-    background-color: $color-primary;
-    &:active {
-      color: $color-primary;
-      border: 2px solid $color-primary;
-      background-color: $color-primary-light;
-    }
-  }
-}
+// @mixin iconButtonAnimation {
+//   animation-name: color-change;
+//   animation-duration: 0.1s;
+//   animation-timing-function: linear;
+//   animation-iteration-count: infinite;
+//   animation-direction: alternate;
+//   animation-fill-mode: both;
+//   animation: color-change 3s linear infinite alternate both;
+
+//   @keyframes color-change {
+//     0% {
+//       background-color: $color-light;
+//     }
+
+//     100% {
+//       background-color: $color-secondary-S50;
+//     }
+//   }
+
+//   @keyframes color-change {
+//     0% {
+//       background-color: $color-light;
+//     }
+
+//     100% {
+//       background-color: $color-secondary-S50;
+//     }
+//   }
+
+//   &:hover {
+//     animation-name: pulsation;
+//     animation-duration: 0.5s;
+//     animation-timing-function: lineal;
+//     animation-iteration-count: infinite;
+//     animation-fill-mode: both;
+
+//     @keyframes pulsation {
+//       from {
+//         transform: scale(1);
+//       }
+
+//       to {
+//         transform: scale(0.9);
+//       }
+//     }
+//   }
+//   &:active {
+//     box-shadow: 0 2px 10px rgba($color-secondary, 0.5);
+//   }
+// }
