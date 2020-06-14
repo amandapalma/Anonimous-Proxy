@@ -1,11 +1,11 @@
-## Módulo 1: Ejercicio de evaluación final Recursos
+# Módulo 1: Ejercicio de evaluación final Recursos
 
 Antes de empezar, tenéis que crear un nuevo repositorio desde GitHub Classroom usando este enlace. Una vez creado, debéis clonarlo en vuestro ordenador y en la carpeta creada debéis empezar a trabajar en el ejercicio.
 A continuación debéis descargar e incluir en el proyecto el starter kit de Adalab.
 También necesitaréis varias imágenes e iconos que podéis descargar desde este zip.
 Y por último aquí tenéis los diseños en zeplin para guiaros en la maquetación. Si no puedes permisos para ver el proyecto, pídeselo a tu profesora.
 
-# Enunciado
+## Enunciado
 
 El ejercicio consiste en desarrollar una página web de acuerdo a un diseño dado. Hay que resolver varios puntos:
 Usar Sass.
@@ -13,7 +13,7 @@ Usar flexbox y CSS Grid.
 Usar media queries.
 Resolver algunas interacciones usando transiciones.
 
-# Maquetación
+## Maquetación
 
 En primer lugar debéis realizar la maquetación sobre un diseño dado:
 
