@@ -1,0 +1,23 @@
+// TEXT BUTTONS
+
+@mixin textButtons {
+  height: 45px;
+  border-radius: 22.5px;
+  font-family: $font-secondary;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 45px;
+}
+
+// ICON BUTTONS
+@mixin iconButtons {
+  background-color: $color-light;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  line-height: 45px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba($color-dark, 0.5);
+}
