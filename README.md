@@ -15,8 +15,7 @@ El ejercicio consiste en desarrollar una página web de acuerdo a un diseño d
 
 ## Maquetación
 
-En primer lugar debéis realizar la maquetación sobre un diseño dado:
- 
+![diseño](https://ibb.co/HHDStPH)
 
 1. El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la pantalla y **no** debe desaparecer al hacer scroll. El icono de la hamburguesa debe ser un enlace a la página de Adalab. Este menú de hamburguesa no desplega ningún submenú.
 
