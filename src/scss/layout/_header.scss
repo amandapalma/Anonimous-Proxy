@@ -9,9 +9,7 @@
     height: 44px;
     width: 44px;
     text-align: center;
-
-    & a {
-      line-height: 44px;
-    }
+    line-height: 44px;
+    position: absolute;
   }
 }

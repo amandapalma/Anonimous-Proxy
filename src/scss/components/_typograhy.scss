@@ -72,3 +72,15 @@ p {
     font-size: 20px;
   }
 }
+
+.navFont {
+  font-family: $font-secondary;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 5px;
+  &:hover {
+    color: $color-primary-light;
+  }
+}

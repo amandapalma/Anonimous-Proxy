@@ -12,18 +12,6 @@
   }
 }
 
-// ===== FONTS STYLES =====
-
-// FOOTER NAV FONT
-
-@mixin navFont {
-  font-family: $font-secondary;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  text-transform: uppercase;
-}
-
 // ===== BUTTONS: STYLES AND ANIMATIONS =====
 
 // TEXT BUTTONS
@@ -37,6 +25,7 @@
   text-transform: capitalize;
   text-align: center;
   line-height: 45px;
+  padding: 0;
 }
 
 // ICON BUTTONS
@@ -49,6 +38,7 @@
   text-align: center;
   box-shadow: 0 2px 4px rgba($color-dark, 0.5);
   padding: 0;
+  border: dotted 1px blueviolet;
 }
 
 // TEXT BUTTON TRANSITIONS
