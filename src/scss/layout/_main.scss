@@ -70,7 +70,13 @@
     width: 76px;
     color: $color-secondary;
     border: 2px solid $color-secondary;
-    @include txtButtonTransition;
+    &:hover {
+      color: $color-primary-light;
+      border: 2px solid $color-primary-light;
+    }
+    &:active {
+      box-shadow: 0 2px 10px rgba($color-secondary, 0.5);
+    }
   }
 }
 
@@ -120,11 +126,14 @@
     background-color: $color-secondary;
     color: $color-light;
     width: 184px;
-    @include txtButtonTransition;
 
-    & a {
-      padding: 10px;
+    &:hover {
+      background-color: $color-primary-light;
     }
+    &:active {
+      box-shadow: 0 2px 10px rgba($color-secondary, 0.5);
+    }
+
     @include tablet {
       grid-column: span 3;
       margin-top: 15px; // We already have 45 px, defined with 'grid-row-gap' property in '.reasonsContainer' class. So we add 15 px to add up to a total of 60 px, as required in the provided design guide.

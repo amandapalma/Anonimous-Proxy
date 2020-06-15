@@ -40,18 +40,18 @@
 
 // TEXT BUTTON TRANSITIONS
 
-@mixin txtButtonTransition {
-  &:hover {
-    color: $color-primary-light;
-    border: 2px solid $color-primary-light;
-    background-color: $color-primary;
-    &:active {
-      color: $color-primary;
-      border: 2px solid $color-primary;
-      background-color: $color-primary-light;
-    }
-  }
-}
+// @mixin txtButtonTransition {
+//   &:hover {
+//     color: $color-primary-light;
+//     border: 2px solid $color-primary-light;
+//     background-color: $color-primary;
+//     &:active {
+//       color: $color-primary;
+//       border: 2px solid $color-primary;
+//       background-color: $color-primary-light;
+//     }
+//   }
+// }
 
 // ICON BUTTON ANIMATIONS
 
