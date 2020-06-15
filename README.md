@@ -17,18 +17,18 @@ Resolver algunas interacciones usando transiciones.
 
 En primer lugar debéis realizar la maquetación sobre un diseño dado:
 
-1. **El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la pantalla y no debe desaparecer al hacer scroll. El icono de la hamburguesa debe ser un enlace a la página de Adalab. Este menú de hamburguesa no desplega ningún submenú.**
-2. **Primer módulo (Anonymous proxy): debe estar maquetado con flexbox y debe ocupar el alto de la ventana del navegador.**
-3. **Segundo módulo (Looking Through A Window): se puede maquetar usando las propiedades de CSS que se deseen.**
-4. **Tercer módulo (3 Reasons To Purchase): los 3 elementos del listado deben estar maquetados con CSS Grid en todos los tamaños de pantalla.**
-5. **Cuarto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la columna "ARTICLES" y todos los textos de la columna "TWITTER" deben ser enlaces a la página de Adalab.**
+1. El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la pantalla y no debe desaparecer al hacer scroll. El icono de la hamburguesa debe ser un enlace a la página de Adalab. Este menú de hamburguesa no desplega ningún submenú.
+1. Primer módulo (Anonymous proxy): debe estar maquetado con flexbox y debe ocupar el alto de la ventana del navegador.
+1. Segundo módulo (Looking Through A Window): se puede maquetar usando las propiedades de CSS que se deseen.
+1. Tercer módulo (3 Reasons To Purchase): los 3 elementos del listado deben estar maquetados con CSS Grid en todos los tamaños de pantalla.
+1. Cuarto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la columna "ARTICLES" y todos los textos de la columna "TWITTER" deben ser enlaces a la página de Adalab.
    Interacción
    En total, hay 3 interacciones que resolver:
-6. El botón de flecha del módulo hero debe enlazar a la sección "3 Reasons To Purchase".
-7. El botón de flecha del footer debe enlazar al inicio de la página.
-8. En el hover de los botones ("Go" y "3 Reasons To Purchase") se debe incluir una transición que dejamos
+1. El botón de flecha del módulo hero debe enlazar a la sección "3 Reasons To Purchase".
+1. El botón de flecha del footer debe enlazar al inicio de la página.
+1. En el hover de los botones ("Go" y "3 Reasons To Purchase") se debe incluir una transición que dejamos
    a vuestra elección (por ejemplo: color, tamaño, etc.).
-9. BONUS: hacer una pequeña animación en el botón del footer.
+1. BONUS: hacer una pequeña animación en el botón del footer.
    Entrega
    Hemos pautado 12 horas de dedicación al ejercicio, por lo que la fecha límite de entrega es:
    Lunes, 15 de junio a las 14:00h.
@@ -47,26 +47,25 @@ Al final tendrás un feedback sobre aspectos a destacar y a mejorar en tu ejerc
 Criterios de evaluación
 Vamos a listar los criterios de evaluación de este ejercicio. Si no superas al menos el 80% de estos criterios o no has superado algún criterio clave (marcados con asterisco) te pediremos que realices una re-evaluación con el fin de que termines el curso mejor preparada y enfrentes tu primera experiencia profesional con más seguridad. En caso contrario, estás aprendiendo al ritmo que hemos pautado para poder afrontar los conocimientos del siguiente módulo.
 General
-Usar una estructura adecuada de ficheros y carpetas para un proyecto web, y enlazar bien los distintos ficheros*.
-Uso de control de versiones con ramas para manejar un proyecto de código. HTML
-Tener el código perfectamente indentado*.
-Crear código HTML con sintaxis correcta, bien estructurado*.
-Usar etiquetas HTML semánticas adecuadas para cada pieza de contenido*.
-CSS / Sass
-Tener el código perfectamente indentado*.
-Crear código Sass con sintaxis correcta, bien estructurado*.
-Usar algunas características de Sass como variables, anidación y parciales.
-Usar código CSS que usa de forma intensiva selectores de clase. No usar selectores de etiqueta ni de
+1. Usar una estructura adecuada de ficheros y carpetas para un proyecto web, y enlazar bien los distintos ficheros*.
+1. Uso de control de versiones con ramas para manejar un proyecto de código. HTML
+1. Tener el código perfectamente indentado*.
+1. Crear código HTML con sintaxis correcta, bien estructurado*.
+1. Usar etiquetas HTML semánticas adecuadas para cada pieza de contenido*.
+1. CSS / Sass
+1. Tener el código perfectamente indentado*.
+1. Crear código Sass con sintaxis correcta, bien estructurado*.
+1. Usar algunas características de Sass como variables, anidación y parciales.
+1. Usar código CSS que usa de forma intensiva selectores de clase. No usar selectores de etiqueta ni de
 id*.
-Usar selectores de clase en inglés*.
-Usar el modelo de caja de CSS de forma adecuada para especificar tamaño, relleno y márgenes*. Usar estilos de texto y fondo para distintos tipos de elementos.
-Usar flexbox de forma adecuada para organizar elemento en cajas flexibles*.
-
-Usar media queries para que los diseños se ajusten a distintos tamaños de dispositivo\*. Usar posicionamiento para emplazar elementos fijos y absolutos en la pantalla.
-Usar CSS grid para emplazar elementos usando una rejilla.
-Usar transiciones CSS para dotar de dinamismo a un proyecto web.
+1. Usar selectores de clase en inglés*.
+1. Usar el modelo de caja de CSS de forma adecuada para especificar tamaño, relleno y márgenes*. Usar estilos de texto y fondo para distintos tipos de elementos.
+1. Usar flexbox de forma adecuada para organizar elemento en cajas flexibles*.
+1. Usar media queries para que los diseños se ajusten a distintos tamaños de dispositivo\*. Usar posicionamiento para emplazar elementos fijos y absolutos en la pantalla.
+1. Usar CSS grid para emplazar elementos usando una rejilla.
+1. Usar transiciones CSS para dotar de dinamismo a un proyecto web.
 Issues
-Haber resuelto las issues de la evaluación intermedia antes del inicio de la evaluación.
+1. Haber resuelto las issues de la evaluación intermedia antes del inicio de la evaluación.
 ¡Al turrón!
 
 ---
