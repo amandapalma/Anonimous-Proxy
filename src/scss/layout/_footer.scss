@@ -42,8 +42,10 @@
         margin-bottom: 30px;
       }
 
-      &--copy span {
-        display: block;
+      &--copy {
+        & span {
+          display: block;
+        }
 
         & i {
           color: $color-secondary;

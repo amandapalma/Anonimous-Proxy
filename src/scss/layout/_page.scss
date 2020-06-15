@@ -18,6 +18,13 @@
   }
 }
 
+// HEADER WRAPPER
+
+.headerWrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
 // MAIN: 'Hero' and 'Looking' sections have their own wrapper properties for breakpoints.
 
 .extraWrapper {
@@ -36,11 +43,4 @@
     padding-left: 275px;
     padding-right: 275px;
   }
-}
-
-// HEADER WRAPPER
-
-.headerWrapper {
-  max-width: 1200px;
-  margin: auto;
 }
