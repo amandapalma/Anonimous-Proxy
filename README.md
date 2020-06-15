@@ -1,9 +1,9 @@
 # Módulo 1: Ejercicio de evaluación final Recursos
 
-- Antes de empezar, tenéis que crear un nuevo repositorio desde GitHub Classroom usando este enlace. Una vez creado, debéis clonarlo en vuestro ordenador y en la carpeta creada debéis empezar a trabajar en el ejercicio.
-- A continuación debéis descargar e incluir en el proyecto el starter kit de Adalab.
-- También necesitaréis varias imágenes e iconos que podéis descargar desde este zip.
-- Y por último aquí tenéis los diseños en zeplin para guiaros en la maquetación. Si no puedes permisos para ver el proyecto, pídeselo a tu profesora.
+- Antes de empezar, tenéis que crear un nuevo repositorio desde GitHub Classroom usando ![este enlace](https://classroom.github.com/assignment-invitations/6c170dd31aae34722c7312d422c0ea22/success) . Una vez creado, debéis clonarlo en vuestro ordenador y en la carpeta creada debéis empezar a trabajar en el ejercicio.
+- A continuación debéis descargar e incluir en el proyecto el ![starter kit de Adalab](https://github.com/Adalab/Adalab-web-starter-kit).
+- También necesitaréis varias imágenes e iconos que podéis descargar desde ![este zip](https://github.com/Adalab/resources/raw/master/evaluations/module-1/module-1-final-evaluation-images.zip).
+- Y por último aquí tenéis los ![diseños en zeplin](https://app.zeplin.io/project/5c8ff9170ffc6f2525b2790c) para guiaros en la maquetación. Si no puedes permisos para ver el proyecto, pídeselo a tu profesora.
 
 ## Enunciado
 
@@ -16,8 +16,9 @@ El ejercicio consiste en desarrollar una página web de acuerdo a un diseño d
 ## Maquetación
 
 En primer lugar debéis realizar la maquetación sobre un diseño dado:
+ 
 
-1. El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la pantalla y no debe desaparecer al hacer scroll. El icono de la hamburguesa debe ser un enlace a la página de Adalab. Este menú de hamburguesa no desplega ningún submenú.
+1. El botón de hamburguesa (en la esquina superior izquierda) debe estar fijo en la parte superior de la pantalla y **no** debe desaparecer al hacer scroll. El icono de la hamburguesa debe ser un enlace a la página de Adalab. Este menú de hamburguesa no desplega ningún submenú.
 
 1. Primer módulo (Anonymous proxy): debe estar maquetado con flexbox y debe ocupar el alto de la ventana del navegador.
 
@@ -32,9 +33,12 @@ En primer lugar debéis realizar la maquetación sobre un diseño dado:
    En total, hay 3 interacciones que resolver:
    
 1. El botón de flecha del módulo hero debe enlazar a la sección "3 Reasons To Purchase".
+
 1. El botón de flecha del footer debe enlazar al inicio de la página.
-1. En el hover de los botones ("Go" y "3 Reasons To Purchase") se debe incluir una transición que dejamos
+
+1. En el `hover` de los botones ("Go" y "3 Reasons To Purchase") se debe incluir una transición que dejamos
    a vuestra elección (por ejemplo: color, tamaño, etc.).
+   
 1. BONUS: hacer una pequeña animación en el botón del footer.
 
 ## Entrega
@@ -47,7 +51,7 @@ Solo debéis hacer commits y merges en la rama master de vuestro repositorio ha
    
 La evaluación solo se considerará terminada cuando:
    
-   - Esté publicada en GitHub Pages y esté funcionando, para lo cual tendréis que subir el código, también a la carpeta docs/ del repositorio.
+   - Esté publicada en GitHub Pages y esté funcionando, para lo cual tendréis que subir el código, también a la carpeta `docs/ `del repositorio.
    
    - El enlace a GitHub Pages esté en la página página principal del repositorio, en la parte superior, al lado de la descripción.
    
@@ -72,7 +76,7 @@ Vamos a listar los criterios de evaluación de este ejercicio. Si no superas al
 ### General
 
 - Usar una estructura adecuada de ficheros y carpetas para un proyecto web, y enlazar bien los distintos ficheros*.
-- Uso de control de versiones con ramas para manejar un proyecto de código. 
+- Uso de control de versiones **con ramas** para manejar un proyecto de código. 
 
 ### HTML
 
@@ -98,7 +102,7 @@ id*.
 
 - Haber resuelto las issues de la evaluación intermedia antes del inicio de la evaluación.
 
-¡Al turrón!
+**¡Al turrón!**
 
 ---
 
