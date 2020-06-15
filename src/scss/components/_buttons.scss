@@ -21,3 +21,8 @@
   text-align: center;
   box-shadow: 0 2px 4px rgba($color-dark, 0.5);
 }
+
+// ACTIVE
+@mixin active {
+  box-shadow: 0 2px 10px rgba($color-secondary, 0.5);
+}

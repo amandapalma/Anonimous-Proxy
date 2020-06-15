@@ -31,10 +31,10 @@
       flex-direction: column;
 
       @include tablet {
+        padding-top: 45px;
+        text-align: start;
         flex-direction: row;
         justify-content: space-between;
-        text-align: start;
-        padding-top: 45px;
       }
 
       &--mainNav,
@@ -42,14 +42,8 @@
         margin-bottom: 30px;
       }
 
-      &--copy {
-        font-family: $font-secondary;
-        font-size: 14px;
-        line-height: 30px;
-
-        & span {
-          display: block;
-        }
+      &--copy span {
+        display: block;
 
         & i {
           color: $color-secondary;
