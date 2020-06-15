@@ -17,8 +17,12 @@
   padding-top: 284px;
   padding-bottom: 53px;
 
-  &__title span {
-    display: block;
+  &__title {
+    @include heroAnimation;
+
+    & span {
+      display: block;
+    }
   }
 
   &__text {

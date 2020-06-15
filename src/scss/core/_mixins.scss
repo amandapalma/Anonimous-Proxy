@@ -38,21 +38,6 @@
   box-shadow: 0 2px 4px rgba($color-dark, 0.5);
 }
 
-// TEXT BUTTON TRANSITIONS
-
-// @mixin txtButtonTransition {
-//   &:hover {
-//     color: $color-primary-light;
-//     border: 2px solid $color-primary-light;
-//     background-color: $color-primary;
-//     &:active {
-//       color: $color-primary;
-//       border: 2px solid $color-primary;
-//       background-color: $color-primary-light;
-//     }
-//   }
-// }
-
 // ICON BUTTON ANIMATIONS
 
 @mixin iconButtonAnimation {
@@ -122,5 +107,29 @@
 
   &:active {
     box-shadow: 0 2px 10px rgba($color-secondary, 0.5);
+  }
+}
+
+// HERO ANIMATION
+
+@mixin heroAnimation {
+  // animation-name: focus-in-text;
+  // animation-duration: 0.1s;
+  // animation-timing-function: linear;
+  // animation-iteration-count: infinite;
+  // animation-direction: alternate;
+  // animation-fill-mode: both;
+  animation: focus-in-text 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+  @keyframes focus-in-text {
+    0% {
+      letter-spacing: 1em;
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
   }
 }
