@@ -91,7 +91,8 @@ Vamos a listar los criterios de evaluación de este ejercicio. Si no superas al
 - Usar código CSS que usa de forma intensiva selectores de clase. No usar selectores de etiqueta ni de
 id*.
 - Usar selectores de clase en inglés*.
-- Usar el modelo de caja de CSS de forma adecuada para especificar tamaño, relleno y márgenes*. Usar estilos de texto y fondo para distintos tipos de elementos.
+- Usar el modelo de caja de CSS de forma adecuada para especificar tamaño, relleno y márgenes*. 
+- Usar estilos de texto y fondo para distintos tipos de elementos.
 - Usar flexbox de forma adecuada para organizar elemento en cajas flexibles*.
 - Usar media queries para que los diseños se ajusten a distintos tamaños de dispositivo\*. Usar posicionamiento para emplazar elementos fijos y absolutos en la pantalla.
 - Usar CSS grid para emplazar elementos usando una rejilla.
